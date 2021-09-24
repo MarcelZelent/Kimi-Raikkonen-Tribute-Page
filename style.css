@@ -1,0 +1,117 @@
+main{
+  font-family: Calibri;
+  
+}
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #002f6c;
+  color: white;
+  height: 8em;
+  font-size: 2.5em;
+  border-radius: 0 0 0 0;
+  width: 60%;
+  margin-left: 20%;
+  border-radius: 20% 5%;
+  font-family: 'Share', cursive;
+  box-shadow: 10px 10px black;
+}
+
+h1{
+  margin: 0.2em;
+  
+}
+
+
+
+#motto {
+  margin-bottom: em;
+  font-family: 'Share', cursive;
+  font-style: italic;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-items: center;
+    width: 50%;
+    margin-left: 25%;
+    padding: 1em;
+    font-family: Tahoma;
+    background: rgb(226, 226, 226);
+    border-width: 50px;
+    border-color: red;
+    font-size: 1.3em;
+    border-radius: 3%;
+    
+    box-shadow: 10px 10px black;
+  }
+
+ol{
+  padding: 10px;
+  list-style-type: none;
+}
+li{
+  padding: 0.5em;
+  font-family: 'Montserrat', sans-serif;
+  font-style: ;
+}
+  
+
+.center {
+  display: block;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 1em;
+    width:35%;
+   border-radius: 5%;
+    max-width: 100%;
+  
+}
+
+body{
+  background:  url(https://get.wallhere.com/photo/1920x1080-px-Ferrari-Formula-1-Kimi-Raikkonen-675641.jpg), url(https://upload.wikimedia.org/wikipedia/commons/2/21/United_States_Grand_Prix_2002_Raikkonen.jpg);
+  background-position: top center, bottom center;
+  background-position-y: 0em, 60em;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 120em, 150em;
+  
+}
+
+a{
+  target:"_blank";
+}
+
+#img-caption{
+  font-size: 1.5em;
+  background: rgb(226, 226, 226);
+  width:25%;
+  margin: -1em 0 1em 37%;
+  padding: 0.25em;
+}
+
+
+ol{
+  padding: 0;
+  margin: 0.65em;
+}
+
+@media (max-width: 1300px) {
+  #main {
+    margin: 0;
+    font-size: 0.5em;
+  }
+}
+
+@media (max-width: 1300px) {
+  #tribute-info {
+    font-size: 1.5em;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+}
